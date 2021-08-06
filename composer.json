@@ -1,5 +1,5 @@
 {
-  "name": "gatsbyjs/wp-gatsby",
+  "name": "devular/wp-gatsby",
   "description": "Optimize your WordPress site as a source for Gatsby site(s)",
   "type": "wordpress-plugin",
   "license": "GPL-3.0-or-later",
