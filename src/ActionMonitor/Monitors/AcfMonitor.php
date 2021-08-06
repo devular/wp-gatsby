@@ -30,14 +30,14 @@ class AcfMonitor extends Monitor
         );
 
         add_action(
-			'acf/save_post',
-			function () {
-				$this->trigger_schema_diff(
-					[
-						'title' => __('Update option page', 'WPGatsby'),
-					]
-				);
-			}
-		);
+            'acf/save_post',
+            function () {
+                $this->trigger_schema_diff(
+                    [
+                        'title' => __('Update option page', 'WPGatsby'),
+                    ]
+                );
+            }
+        );
     }
 }
